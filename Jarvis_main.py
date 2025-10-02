@@ -222,7 +222,7 @@ if __name__ == "__main__":
                     a = (1,2,3)
                     b = random.choice(a)
                     if b==1:
-                        webbrowser.open("https://www.youtube.com/watch?v=E3jOYQGu1uw&t=1246s&ab_channel=scientificoder")
+                        webbrowser.open("https://www.youtube.com/@SHANK18/youtube.com/channel/UCjnvcIQygDFNk0UDxXHmxYw/youtube.com/channel/UCjnvcIQygDFNk0UDxXHmxYw/live")
                     
 
                 elif "pause" in query:
