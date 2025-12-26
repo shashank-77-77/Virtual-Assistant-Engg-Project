@@ -3,12 +3,14 @@ import speech_recognition
 import wolframalpha
 
 
+
+
 Assistant =pyttsx3.init('sapi5')
 voices = Assistant.getProperty('voices')
 print(voices)
 Assistant.setProperty('voices',voices[0].id)
 Assistant.setProperty('rate', 200 )
-
+#fuction Speck to audio
 def Speak(audio):
     print("    ")
     Assistant.say(audio)
